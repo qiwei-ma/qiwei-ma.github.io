@@ -39,7 +39,7 @@ Download my [CV](https://qiwei-ma.github.io/Qiwei-Ma-CV.pdf) here.
 
 # 📝 Publications
 
-- J. Zhang, **Qiwei Ma**, Y. Zhang, and X. Cao, "Multi-agent vs. single-agent AI for EFL speaking practice: A controlled experiment with hybrid input, contextual dialogue, and proficiency-adaptive feedback," *Educational Technology & Society (ET&S)*, 2025(Accepted)
+- J. Zhang, Qiwei Ma, Y. Zhang, and X. Cao, "Multi-agent vs. single-agent AI for EFL speaking practice: A controlled experiment with hybrid input, contextual dialogue, and proficiency-adaptive feedback," *Educational Technology & Society (ET&S)*, 2025(Accepted)
 
 
 <!-- # 🎖 Honors and Awards
