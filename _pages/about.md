@@ -17,31 +17,30 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I’m currently a master student at Shenzhen University, majoring in artificial intelligence. My research interest includes AI privacy and security. 
+I’m currently a master's student at Shenzhen University, majoring in artificial intelligence. My research interests lie in Large Language Models (LLMs), multi-agent systems, and their applications, with particular emphasis on education.
 
 Download my [CV](https://qiwei-ma.github.io/Qiwei-Ma-CV.pdf) here.
 <!-- I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
+# Research Experience
 
-<!-- # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+## Multi-Agent Conversational AI for EFL Speaking Practice (Jan 2025 - Present) — Supervisors: Dr. Zhang (SZU)
+- Proposed a multi-agent system (MAS) for EFL speaking practice.
+- Completed development of seven specialized agents (preprocessing, response generation, dialogue supervision).
+- Explored mechanisms of MAS superiority, confirming synergistic effects of integrated features.
+- Found MAS outperforms SAS in oral proficiency gains (p = 0.049) and grammatical accuracy (p = 0.016) via a 4-week controlled experiment with 32 university EFL learners.
+- Observed MAS led to 26% more practice sessions, 15% longer utterances, and a 70% reduction in repeated grammatical errors.
 
-# 📝 Publications 
+## Reasoning for Table Manipulation (Mar 2025 - Present) — Supervisors: Dr. Yang, Dr. Tan (SIAT, CAS)
+- Proposed an end-to-end LLM to manipulate tabular structures via structured reasoning.
+- Constructed a benchmark covering five core tasks: table splitting/merging, wide-to-long conversion, semi-structured field parsing, and row/column generation.
+- Completed two-stage training (SFT on reasoning traces + GRPO optimization), achieving state-of-the-art performance among 7B-scale table-specific models.
+- Investigated structural integrity challenges and found column-level accuracy often exceeds row-level accuracy due to sensitivity to missing fields.
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+# 📝 Publications
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+- J. Zhang, **Qiwei Ma**, Y. Zhang, and X. Cao, "Multi-agent vs. single-agent AI for EFL speaking practice: A controlled experiment with hybrid input, contextual dialogue, and proficiency-adaptive feedback," *Educational Technology & Society (ET&S)*, 2025(Accepted)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 <!-- # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
@@ -55,5 +54,5 @@ Download my [CV](https://qiwei-ma.github.io/Qiwei-Ma-CV.pdf) here.
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
-<!-- # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China. -->
+# 💻 Internships
+- *2025.05 - now*, [Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences](http://english.siat.cas.cn/), China.
