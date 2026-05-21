@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Qiwei Ma"
-description              : "Master student, Focusing on Large Language Models (LLMs), multi-agent systems, and their applications, with particular emphasis on education. Expected to graduate in June 2026. "
+description              : "Research Assistant at The Education University of Hong Kong, focusing on robotics, embodied intelligence, and AI for education, with broader interests in Large Language Models and multi-agent systems."
 repository               : "RayeRen/acad-homepage.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,12 +23,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Qiwei Ma(马启伟)"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "Shenzhen University"
-  location         : "Shenzhen, China"
+  bio              : "Research Assistant at The Education University of Hong Kong"
+  location         : "Hong Kong, China"
   employer         :
   pubmed           : 
   googlescholar    : # "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "maqiwei303@gmail.com"
+  email            : "mqiwei@eduhk.hk"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
