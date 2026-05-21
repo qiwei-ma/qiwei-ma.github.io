@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Qiwei Ma"
-description              : "Research Assistant at The Education University of Hong Kong, focusing on robotics, embodied intelligence, and AI for education, with broader interests in Large Language Models and multi-agent systems."
+description              : "Focusing on robotics, embodied intelligence, and AI for education, with broader interests in Large Language Models and multi-agent systems."
 repository               : "RayeRen/acad-homepage.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -24,7 +24,7 @@ author:
   name             : "Qiwei Ma(马启伟)"
   avatar           : "images/android-chrome-512x512.png"
   bio              : "Research Assistant at The Education University of Hong Kong"
-  location         : "Hong Kong, China"
+  location         : "Hong Kong"
   employer         :
   pubmed           : 
   googlescholar    : # "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"

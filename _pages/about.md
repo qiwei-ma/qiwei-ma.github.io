@@ -73,5 +73,5 @@ Download my [CV](https://qiwei-ma.github.io/Qiwei-Ma-CV.pdf) here.
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Experience
-- *2025.05 - 2026.01*, [Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences](http://english.siat.cas.cn/), China.
-- *2026.04 - 2027.04*, Research Assistant, The Education University of Hong Kong, Hong Kong, China.
+- *2025.05 - 2026.01*, Research Intern, [Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences](http://english.siat.cas.cn/), Shenzhen.
+- *2026.04 - 2027.04*, Research Assistant, [The Education University of Hong Kong](https://www.eduhk.hk/en/), Hong Kong.
