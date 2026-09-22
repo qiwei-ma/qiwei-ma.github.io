@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "Qiwei Ma"
 description              : "Focusing on Agentic AI, Embodied Intelligence, and AI in education."
-repository               : "RayeRen/acad-homepage.github.io"
+repository               : "qiwei-ma/qiwei-ma.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -21,13 +21,13 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Qiwei Ma(马启伟)"
+  name             : "Qiwei Ma (马启伟)"
   avatar           : "images/android-chrome-512x512.png"
   bio              : "Research Assistant at The Education University of Hong Kong"
   location         : "Hong Kong"
   employer         :
   pubmed           : 
-  googlescholar    : # "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
+  googlescholar    : "https://scholar.google.com/citations?user=9FHf45gAAAAJ&hl=en"
   email            : "mqiwei@eduhk.hk"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -45,7 +45,7 @@ author:
   lastfm           :
   linkedin         : # e.g., "linkedin username"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
+  orcid            : "https://orcid.org/0009-0001-3725-0340"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username

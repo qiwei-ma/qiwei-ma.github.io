@@ -59,6 +59,8 @@ Download my [CV](https://qiwei-ma.github.io/Qiwei-Ma-CV.pdf) here.
 
 - Zhang, J., **Ma, Q.**, Zhang, Y., & Cao, X. (2026). Multi-agent vs. single-agent AI for EFL speaking practice: A controlled experiment with hybrid input, contextual dialogue, and proficiency-adaptive feedback. Educational Technology & Society, 29(2), 297-322. https://doi.org/10.30191/ETS.202604_29(2).SP05
 
+- Wang, M., Wang, Y., & **Ma, Q.** (2026). Agentic AI unleashed: Power, promise, and ethical frontiers. In K. T. Chui, C. Li, J. Jia, S. K. S. Cheung, F. W.-F. Lee, & J. Shang (Eds.), *Blended learning: Innovations for future education* (pp. 27-39). Springer. https://doi.org/10.1007/978-981-92-3761-6_3
+
 
 
 <!-- # 🎖 Honors and Awards
