@@ -21,17 +21,29 @@ I’m currently a Research Assistant at The Education University of Hong Kong. M
 
 I will be applying for PhD positions for Fall 2027 entry and am also open to earlier opportunities after completing my RA contract.
 
-Download my [CV](https://qiwei-ma.github.io/Qiwei-Ma-CV.pdf) here.
+Please see my [CV](https://qiwei-ma.github.io/Qiwei-Ma-CV.pdf) and [Google Scholar](https://scholar.google.com/citations?user=9FHf45gAAAAJ&hl=en) for further details, or contact me at mqiwei@eduhk.hk.
 <!-- I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 # 🔬 Research Experience
 
-## Multi-Agent Conversational AI for EFL Speaking Practice (Jan 2025 - Jan 2026) — Supervisor: Dr. Zhang (SZU)
-- Developed a multi-agent system (MAS) for EFL speaking practice.
-- Built seven specialized agents for preprocessing, response generation, and dialogue supervision.
-- Investigated the mechanisms underlying MAS superiority and identified synergistic effects among integrated features.
-- Conducted a 4-week controlled experiment with 32 university EFL learners, showing that MAS outperformed SAS in oral proficiency gains (p = 0.049) and grammatical accuracy (p = 0.016).
-- Found that MAS led to 26% more practice sessions, 15% longer utterances, and a 70% reduction in repeated grammatical errors.
+<div class='paper-box'>
+<div class='paper-box-image'><div><div class="badge">ET&S 2026</div><a href='images/multi-agent-efl-system.png'><img src='images/multi-agent-efl-system.png' alt='Architecture of the multi-agent conversational AI system for EFL speaking practice' width="100%"></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+## [Multi-Agent Conversational AI for EFL Speaking Practice](https://doi.org/10.30191/ETS.202604_29(2).SP05)
+
+*Jan 2025 - Jan 2026 · Supervisor: Dr. Zhang (SZU)*
+
+Jun Zhang, **Qiwei Ma**, Yu Zhang, and Xiaoming Cao
+
+[[Paper]](https://doi.org/10.30191/ETS.202604_29(2).SP05) [[Code]](https://github.com/qiwei-ma/Multi-Agent-Conversational-AI)
+
+- Designed a conversational system with a lightweight digital-human interface and seven specialised agents for adaptive EFL speaking practice.
+- Evaluated the system in a four-week controlled study with 32 university learners. MAS produced greater gains in oral proficiency (p = 0.049) and grammatical accuracy (p = 0.016) than SAS.
+- MAS supported 26% more practice sessions, 15% longer utterances, and 70% fewer repeated grammatical errors.
+
+</div>
+</div>
 
 ## Reasoning for Table Manipulation (Mar 2025 - Jan 2026) — Supervisors: Dr. Yang, Dr. Tan (SIAT, CAS)
 - Developed an end-to-end LLM framework for table manipulation through structured reasoning.
