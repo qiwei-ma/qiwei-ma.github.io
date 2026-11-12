@@ -21,7 +21,7 @@ I’m currently a Research Assistant at The Education University of Hong Kong. M
 
 I will be applying for PhD positions for Fall 2027 entry and am also open to earlier opportunities after completing my RA contract.
 
-Please see my [CV](https://qiwei-ma.github.io/Qiwei-Ma-CV.pdf) and [Google Scholar](https://scholar.google.com/citations?user=9FHf45gAAAAJ&hl=en) for further details, or contact me at mqiwei@eduhk.hk.
+Please see my [CV](/1112/V1_Qiwei-Ma-CV.pdf) and [Google Scholar](https://scholar.google.com/citations?user=9FHf45gAAAAJ&hl=en) for further details, or contact me at mqiwei@eduhk.hk.
 <!-- I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 # 🔬 Research Experience
@@ -60,14 +60,18 @@ Jun Zhang, **Qiwei Ma**, Yu Zhang, and Xiaoming Cao
 - Achieved state-of-the-art performance on MNIST and Fashion-MNIST, surpassing baseline methods in Inception Score, Frechet Inception Distance, and downstream classification accuracy.
 
 ## Intelligent Annotation and Feedback System for English Writing (Apr 2025 - Sep 2025) — Supervisor: Dr. Zhang (SZU)
-- Developed LLM-IAF (LLM-based Intelligent Annotation and Feedback System), a mobile application for automated English writing assessment for junior high school students.
+- Developed MLLM-IAF (MLLM-based Intelligent Annotation and Feedback), a mobile application for automated English writing assessment for junior high school students.
 - Implemented a dual-engine AI workflow combining semantic evaluation and visual grounding to provide immediate visual feedback with error localization on handwritten essays.
-- Conducted an experimental study comparing students using LLM-IAF with a control group receiving traditional instruction across four weekly writing tasks.
+- Conducted an experimental study comparing students using MLLM-IAF with a control group receiving traditional instruction across four weekly writing tasks.
 - Observed significant improvements in writing performance, learning engagement, and writing self-efficacy in the experimental group.
 - Demonstrated strong agreement between AI and teacher scoring, and students reported high satisfaction with the system's usefulness and ease of use.
 
 
 # 📝 Publications
+
+- Zhang, J., **Ma, Q.**, Zhang, Y., Zhu, L., & Cao, X. (2027). From textual lists to in-situ annotations: Empowering junior high school EFL writing with multimodal large language models. *Assessing Writing, 71*, 101146. https://doi.org/10.1016/j.asw.2026.101146
+
+- Yang, J., Wang, M., Du, X., & **Ma, Q.** (2026). Multimodal affective computing in the era of LLM-based educational agents: Key insights, challenges, and future prospects. *IEEE Transactions on Learning Technologies, 19*, 988–1004. https://doi.org/10.1109/TLT.2026.3738338
 
 - Zhang, J., **Ma, Q.**, Zhang, Y., & Cao, X. (2026). Multi-agent vs. single-agent AI for EFL speaking practice: A controlled experiment with hybrid input, contextual dialogue, and proficiency-adaptive feedback. Educational Technology & Society, 29(2), 297-322. https://doi.org/10.30191/ETS.202604_29(2).SP05
 
