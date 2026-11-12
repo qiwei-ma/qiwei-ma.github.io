@@ -21,7 +21,7 @@ I’m currently a Research Assistant at The Education University of Hong Kong. M
 
 I will be applying for PhD positions for Fall 2027 entry and am also open to earlier opportunities after completing my RA contract.
 
-Please see my [CV](/Qiwei-Ma-CV.pdf) and [Google Scholar](https://scholar.google.com/citations?user=9FHf45gAAAAJ&hl=en) for further details, or contact me at mqiwei@eduhk.hk.
+Please see my [CV](/Qiwei-Kevin-Ma-CV.pdf) and [Google Scholar](https://scholar.google.com/citations?user=9FHf45gAAAAJ&hl=en) for further details, or contact me at mqiwei@eduhk.hk.
 <!-- I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 # 🔬 Research Experience
