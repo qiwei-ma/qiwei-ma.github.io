@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Qiwei Ma"
+title                    : "Qiwei (Kevin) Ma"
 description              : "Focusing on Agentic AI, Embodied Intelligence, and AI in education."
 repository               : "qiwei-ma/qiwei-ma.github.io"
 google_scholar_stats_use_cdn : true
@@ -21,7 +21,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Qiwei Ma (马启伟)"
+  name             : "Qiwei (Kevin) Ma"
+  chinese_name     : "马启伟"
   avatar           : "images/android-chrome-512x512.png"
   bio              : "Research Assistant at The Education University of Hong Kong"
   location         : "Hong Kong"

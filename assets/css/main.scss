@@ -39,6 +39,7 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+@import "profile-polish";
 
 .paper-box {
     display: flex;
@@ -56,9 +57,32 @@
         width: 100%;
         order: 2;
         img {
-            max-width: 400px;
+            display: block;
+            width: 100%;
+            height: auto;
+            max-width: 100%;
+            object-fit: contain;
+            border-radius: 5px;
             box-shadow: 3px 3px 6px #888;
-            object-fit: cover;
+        }
+    }
+
+    .paper-box-figure {
+        position: relative;
+        width: 100%;
+        max-width: 400px;
+
+        > a {
+            display: block;
+            width: 100%;
+            aspect-ratio: auto;
+        }
+
+        .badge {
+            top: .5em;
+            left: -.5em;
+            z-index: 1;
+            margin: 0;
         }
     }
     
@@ -68,11 +92,15 @@
     }
     
     @include breakpoint($medium) {
+        align-items: stretch;
+
         .paper-box-image{
-            justify-content: left;
+            justify-content: center;
+            align-items: center;
             min-width: 200px;
             max-width: 40%;
             order: 1;
+
         }
         
         .paper-box-text{
@@ -85,6 +113,12 @@
     }
 
 
+}
+
+.citation-ampersand {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
 }
 
 $scroll_offset : 2em;

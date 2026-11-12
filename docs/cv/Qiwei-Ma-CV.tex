@@ -1,0 +1,178 @@
+ \documentclass{resume} % Use the custom resume.cls style
+  \usepackage[dvipsnames]{xcolor}
+  \usepackage[hidelinks]{hyperref}
+  \usepackage{ragged2e,tabularx}
+  \setlength{\emergencystretch}{3em}
+
+  \DeclareTextCommandDefault{\&}{\textnormal{\symbol{38}}}
+
+  \usepackage[left=0.65in,top=0.5in,right=0.65in,bottom=0.4in]{geometry}
+  \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+  \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+  \newcommand{\cvPosition}[4]{%
+    \noindent\begin{tabularx}{\linewidth}{@{}>{\RaggedRight\hyphenpenalty=10000\arraybackslash}X@{\hspace{10pt}}>{\RaggedLeft\arraybackslash}p{1.4in}@{}}
+      {\bfseries #1} & {\small\mbox{#2}} \\
+      \textit{#3} & {\small #4} \\
+    \end{tabularx}\par\medskip
+  }
+
+  \name{Qiwei (Kevin) Ma}
+  \address{(+852) 70115761 \\ \href{mailto:mqiwei@eduhk.hk}{mqiwei@eduhk.hk}}
+  \address{\href{https://qiwei-ma.github.io/}{qiwei-ma.github.io} \\ Hong Kong, China}
+
+  \definecolor{CarnegieMellonRed}{RGB}{196,18,48}
+
+  \renewenvironment{rSection}[1]{
+  \sectionskip
+  \textbf{\MakeUppercase{#1}}
+  \sectionlineskip
+  {\color[gray]{0.6}\hrule height 0.35pt}
+  \begin{list}{}{
+  \setlength{\leftmargin}{1.5em}
+  \setlength{\topsep}{4pt}
+  \setlength{\partopsep}{0pt}
+  }
+  \item[]\RaggedRight\hyphenpenalty=10000\relax
+  }{
+  \end{list}
+  }
+
+  \begin{document}
+
+  \begin{rSection}{Education}
+  {\bf Shenzhen University (SZU)} \hfill {\em June 2026} \\
+  M.S. in Artificial Intelligence \\
+  GPA: 3.5/4.0
+
+  {\bf Ningxia University (NXU)} \hfill {\em June 2022} \\
+  B.E. in Materials \\
+  GPA: 3.0/4.0
+  \end{rSection}
+
+  \begin{rSection}{Interests}
+  \begin{rSubsection}{}{}{}{}
+  \item Agentic AI
+  \item Embodied Intelligence
+  \item AI in Education
+  \end{rSubsection}
+  \end{rSection}
+
+  \begin{rSection}{Publications}
+  \itemsep -2pt
+
+  \begingroup\fontsize{10.5}{12.8}\selectfont\RaggedRight\hyphenpenalty=10000\relax
+  \renewcommand{\section}[2]{}
+  \begin{thebibliography}{9}
+  \setlength{\itemsep}{4pt}
+  \setlength{\parskip}{0pt}
+  \bibitem{paper4} Jun Zhang, \textbf{Qiwei Ma}, Yu Zhang, Liying Zhu, and Xiaoming Cao. (2027).
+  From textual lists to in-situ annotations: Empowering junior high school EFL writing with multimodal
+  large language models. \emph{Assessing Writing}, 71, 101146.
+  \href{https://doi.org/10.1016/j.asw.2026.101146}{[DOI]}.
+
+  \bibitem{tlt2026} Juan Yang, Minjuan Wang, Xu Du, and \textbf{Qiwei Ma}. (2026).
+  Multimodal affective computing in the era of LLM-based educational agents: Key insights,
+  challenges, and future prospects. \emph{IEEE Transactions on Learning Technologies}, 19, 988--1004.
+  \href{https://doi.org/10.1109/TLT.2026.3738338}{[DOI]}.
+
+  \bibitem{agentic2026} Minjuan Wang, Yizhi Wang, and \textbf{Qiwei Ma}\textsuperscript{*}. (2026).
+  Agentic AI unleashed: Power, promise, and ethical frontiers. In K. T. Chui, C. Li, J. Jia,
+  S. K. S. Cheung, F. W.-F. Lee, and J. Shang (Eds.),
+  \emph{Blended learning: Innovations for future education} (pp. 27--39). Springer.
+  \href{https://doi.org/10.1007/978-981-92-3761-6_3}{[DOI]}.
+
+  \bibitem{paper1} Jun Zhang, \textbf{Qiwei Ma}, Yu Zhang, and Xiaoming Cao. (2026).
+  Multi-agent vs. single-agent AI for EFL speaking practice: A controlled experiment with hybrid input,
+  contextual dialogue, and proficiency-adaptive feedback. \emph{Educational Technology \& Society},
+  29(2), 297--322. \href{https://doi.org/10.30191/ETS.202604_29(2).SP05}{[DOI]}.
+  \end{thebibliography}
+  \endgroup
+  {\footnotesize * Corresponding author.}
+  \end{rSection}
+
+  \begin{rSection}{Manuscripts}
+  \begingroup\fontsize{10.5}{12.8}\selectfont\RaggedRight\hyphenpenalty=10000\relax
+  Yiqian Xie, Minjuan Wang, Xu Du, \textbf{Qiwei Ma}, and Bing Ma. (2026).
+  Toward computational understanding of epistemic emotions in authentic collaboration:
+  A context-aware multimodal benchmark. \emph{IEEE Transactions on Learning Technologies}.
+  Under review.
+  \par\endgroup
+  \end{rSection}
+
+  \begin{rSection}{Research Experience}
+
+  \begin{rSubsection}{Multi-Agent Conversational AI for EFL Speaking Practice \cite{paper1}}{Jan
+  2025 - Jan 2026}{Supervisor: \href{https://fe.szu.edu.cn/info/1023/1133.htm}{Dr. Zhang}}{SZU}
+  \item Built a multi-agent system for EFL speaking practice with a digital-human interface
+  for contextual dialogue.
+  \item Implemented seven specialised agents for input processing and dialogue supervision,
+  keeping their roles modular so feedback strategies could be revised independently.
+  \item Supported mixed Chinese and English input, with dialogue and feedback adapted to
+  the learner's proficiency.
+  \item Ran a four-week controlled study comparing multi-agent and single-agent versions
+  with university EFL learners.
+  \item Analysed dialogue logs and learner feedback alongside speaking assessments to examine
+  how students used the system and where the two versions differed.
+  \end{rSubsection}
+
+  \begin{rSubsection}{Intelligent Annotation and Feedback System for English Writing \cite{paper4}}
+  {Apr 2025 - Sep 2025}{Supervisor: \href{https://fe.szu.edu.cn/info/1023/1133.htm}{Dr. Zhang}}{SZU}
+  \item Built MLLM-IAF, a mobile application that assesses handwritten English essays and
+  provides visual feedback for junior high school students.
+  \item Combined multimodal semantic evaluation with OCR to locate errors and place
+  corrections beside the relevant text in an essay.
+  \item Added a teacher review interface for adjusting scores and editing AI-generated
+  feedback.
+  \item Ran a classroom study across four weekly writing tasks, comparing MLLM-IAF with
+  traditional instruction and examining writing performance and learner engagement.
+  \item Checked agreement between AI and teacher scores, and collected student feedback
+  on the system's usefulness and ease of use.
+  \end{rSubsection}
+
+  \end{rSection}
+
+
+
+  \begin{rSection}{Additional Research}
+
+  \begin{rSubsection}{Reasoning for Table Manipulation }{Mar 2025 - Jan 2026}
+  {Supervisors: \href{https://minyang.me/}{Prof. Yang}, \href{https://szs.siat.ac.cn/siat/2025-02/21/article_2025022105340818693.html}{Dr. Tan}}{SIAT, CAS}
+  \item Built an LLM framework that uses structured reasoning to carry out table manipulation
+  tasks.
+  \item Constructed a benchmark for restructuring tables, including wide-to-long conversion
+  and parsing fields in semi-structured data.
+  \item Trained models on reasoning traces through supervised fine-tuning followed by GRPO
+  optimisation, then evaluated them across the benchmark tasks.
+  \item Analysed errors at row and column level to understand how missing fields affected
+  the structural integrity of the resulting tables.
+  \end{rSubsection}
+
+  \begin{rSubsection}{Differential Privacy Image Generation}{Mar 2024 - Apr 2025}{Supervisor:
+  \href{https://fe.szu.edu.cn/info/1023/1133.htm}{Dr. Zhang}}{SZU}
+  \item Built a differentially private image generation framework to investigate gradient
+  clipping bias and training stability.
+  \item Added reconstruction loss and noise injection during generator upsampling to improve
+  the utility and diversity of generated images.
+  \item Implemented classifier and encoder components alongside adversarial training,
+  with gradient sanitisation in the training pipeline.
+  \item Evaluated generated images on MNIST and Fashion-MNIST, checking image quality
+  and their usefulness for downstream classification.
+  \end{rSubsection}
+
+  \end{rSection}
+
+
+
+
+
+  \begin{rSection}{Experience}
+
+  \cvPosition{Research Assistant}{Apr 2026 - Present}{The Education University of Hong
+  Kong}{Hong Kong, China}
+
+  \cvPosition{Research Intern}{May 2025 - Jan 2026}{\href{http://english.siat.cas.cn/}
+  {Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences}}{China}
+
+  \end{rSection}
+
+  \end{document}

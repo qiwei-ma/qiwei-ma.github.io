@@ -111,13 +111,14 @@
 %----------------------------------------------------------------------------------------
 
 \newenvironment{rSubsection}[4]{ % 4 input arguments - company name, year(s) employed, job title and location
- {\bf #1} \hfill {#2} % Bold company name and date on the right
- \ifthenelse{\equal{#3}{}}{}{ % If the third argument is not specified, don't print the job title and location line
-  \\
-  {\em #3} \hfill { #4} % Italic job title and location
-  }\smallskip
+ \ifthenelse{\equal{#1}{}}{}{%
+  \noindent\begin{tabularx}{\linewidth}{@{}>{\RaggedRight\hyphenpenalty=10000\arraybackslash}X@{\hspace{10pt}}>{\RaggedLeft\arraybackslash}p{1.4in}@{}}
+    {\bfseries #1} & {\small\mbox{#2}} \\
+    \ifthenelse{\equal{#3}{}}{}{\textit{#3} & {\small #4} \\}
+  \end{tabularx}\par\smallskip
+ }
   \begin{list}{$\cdot$}{\leftmargin=0em} % \cdot used for bullets, no indentation
-   \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
+   \itemsep -0.35em \vspace{-0.4em}
   }{
   \end{list}
   \vspace{0.5em} % Some space after the list of bullet points
@@ -126,6 +127,6 @@
 % The below commands define the whitespace after certain things in the document - they can be \smallskip, \medskip or \bigskip
 \def\namesize{\huge} % Size of the name at the top of the document
 \def\addressskip{\smallskip} % The space between the two address (or phone/email) lines
-\def\sectionlineskip{\medskip} % The space above the horizontal line for each section 
+\def\sectionlineskip{\vspace{4pt}} % The space above the horizontal line for each section
 \def\nameskip{\bigskip} % The space after your name at the top
-\def\sectionskip{\medskip} % The space after the heading section
+\def\sectionskip{\vspace{9pt}} % The space after the heading section
