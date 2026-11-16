@@ -3,8 +3,8 @@ main:
   - title: "About Me"
     url: "/#about-me"
 
-  # - title: "News"
-  #   url: "/#-news"
+  - title: "News"
+    url: "/#-news"
 
   - title: "Research Experience"
     url: "/#-research-experience"
@@ -23,3 +23,9 @@ main:
 
   - title: "Experience"
     url: "/#-experience"
+
+  - title: "Open-source"
+    url: "/#-open-source"
+
+  - title: "Academic Service"
+    url: "/#-academic-service"
