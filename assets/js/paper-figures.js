@@ -1,4 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
+  // 项目图排版约定，后续新增图片也沿用：桌面端以右侧实际内容高度为上限，
+  // 等比例缩放，不裁切、不补白；在左侧栏上下左右居中，保留 5px 圆角。
+  // 期刊标签仍相对图片左上角向上、向左各超出 10px。
+  // 修改文字、行距或段距后须自动重算尺寸；手机单栏按可用宽度显示，
+  // 不用 display: contents 的文字容器高度限制图片。
   document.querySelectorAll('.paper-box').forEach(function (card) {
     var column = card.querySelector('.paper-box-image');
     var figure = card.querySelector('.paper-box-figure');
@@ -12,7 +17,16 @@ document.addEventListener('DOMContentLoaded', function () {
         return;
       }
       var ratio = image.naturalWidth / image.naturalHeight;
-      var width = Math.min(column.clientWidth, 400, text.getBoundingClientRect().height * ratio);
+      var textBounds = text.getBoundingClientRect();
+      var lastContent = text.lastElementChild;
+      // 排除末段外边距，避免段距收紧后图片仍按包含空白的容器高度放大。
+      var contentBottom = lastContent ? lastContent.getBoundingClientRect().bottom : textBounds.bottom;
+      var contentHeight = Math.max(0, contentBottom - textBounds.top);
+      if (!contentHeight) {
+        figure.style.width = '';
+        return;
+      }
+      var width = Math.min(column.clientWidth, 400, contentHeight * ratio);
       figure.style.width = width + 'px';
     }
 

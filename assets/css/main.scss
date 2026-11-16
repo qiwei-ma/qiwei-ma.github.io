@@ -95,6 +95,8 @@
         align-items: stretch;
 
         .paper-box-image{
+            // 与 paper-figures.js 配合：图片随右侧内容高度缩放，并在左栏双向居中。
+            // 不改为铺满固定高度的图片框，也不要裁切图片或添加白色补边。
             justify-content: center;
             align-items: center;
             min-width: 200px;
