@@ -97,13 +97,15 @@ body { line-height: 1.5; }
   }
   .paper-box-figure .badge {
     top: -10px;
-    left: -10px;
+    // 图片保持居中，标签统一对齐左栏边缘，避免较窄的图片让标签向右偏移。
+    left: var(--paper-badge-left, -10px);
     background: #00369f;
     border-radius: 3px;
     padding: 2px 8px;
     font-size: 12px;
     line-height: 18px;
     font-weight: 600;
+    .citation-ampersand { font-weight: inherit; }
   }
 
   @media (min-width: 768px) {

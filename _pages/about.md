@@ -32,7 +32,7 @@ Please see my [CV](/Qiwei-Kevin-Ma-CV.pdf) and [Google Scholar](https://scholar.
 <h1 id="-research-experience"><span class="section-icon" aria-hidden="true">🔬</span> Research Experience</h1>
 
 <div class='paper-box'>
-<div class='paper-box-image'><div class='paper-box-figure'><div class="badge">ET&S 2026</div><a href='images/multi-agent-efl-system.png'><img src='images/multi-agent-efl-system.webp' alt='Architecture of the multi-agent conversational AI system for EFL speaking practice' width="100%"></a></div></div>
+<div class='paper-box-image'><div class='paper-box-figure'><div class="badge">ET<span class="citation-ampersand">&amp;</span>S 2026</div><a href='images/multi-agent-efl-system.png'><img src='images/multi-agent-efl-system.webp' alt='Architecture of the multi-agent conversational AI system for EFL speaking practice' width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 ## [Multi-Agent Conversational AI for EFL Speaking Practice](https://doi.org/10.30191/ETS.202604_29(2).SP05)&nbsp;<a class="paper-resource" href="https://doi.org/10.30191/ETS.202604_29(2).SP05">[Paper]</a>&nbsp;<a class="paper-resource" href="https://github.com/qiwei-ma/Multi-Agent-Conversational-AI">[Code]</a>
